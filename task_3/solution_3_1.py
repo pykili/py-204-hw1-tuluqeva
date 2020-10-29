@@ -17,3 +17,7 @@ for w in 'W'*len(m):
         a = a + m[g] 
     g += 1
 print(a)
+# я обнаружила косяк: чтобы работало с длинными последовательностями надо заменить
+i = i+str(num) на i = i+' '+str(num)+' '
+if not str(g) in i: на if not ' '+str(g)+' ' in i:
+
