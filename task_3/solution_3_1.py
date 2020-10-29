@@ -18,6 +18,6 @@ for w in 'W'*len(m):
     g += 1
 print(a)
 # я обнаружила косяк: чтобы работало с длинными последовательностями надо заменить
-i = i+str(num) на i = i+' '+str(num)+' '
-if not str(g) in i: на if not ' '+str(g)+' ' in i:
+# i = i+str(num) на i = i+' '+str(num)+' '
+# if not str(g) in i: на if not ' '+str(g)+' ' in i:
 
