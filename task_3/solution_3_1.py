@@ -3,7 +3,6 @@ i = ''
 a = ''
 num = 0
 g = 0
-k = 1
 for M in 'M'*(len(m)-1):
     k = 1
     for J in 'J'*(len(m)-num-1):
